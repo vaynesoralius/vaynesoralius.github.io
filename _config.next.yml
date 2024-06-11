@@ -120,8 +120,8 @@ avatar:
 
 social:
   GitHub: https://github.com/vaynesoralius || fab fa-github
-  Crowdin: https://crowdin.com/project/hexo-theme-next || fa fa-globe-asia
-  RSS: /atom.xml || fa fa-rss
+  YouTube: https://www.youtube.com/@vaynesoralius || fa-brands fa-youtube
+  Twitch: https://x.com/Vayne_Soralius || fa-brands fa-twitter
 
 social_icons:
   enable: true
@@ -139,9 +139,9 @@ toc:
 # ============================================================= #
 
 footer:
-  since: 2014
+  since: 2024
   icon:
-    name: fa-light fa-star
+    name: fa-regular fa-star
     animated: true
     color: "#808080"
   copyright: Vayne Soralius
