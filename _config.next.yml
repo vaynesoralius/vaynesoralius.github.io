@@ -119,7 +119,7 @@ avatar:
   rounded: true
 
 social:
-  GitHub: https://github.com/next-theme || fab fa-github
+  GitHub: https://github.com/vaynesoralius || fab fa-github
   Crowdin: https://crowdin.com/project/hexo-theme-next || fa fa-globe-asia
   RSS: /atom.xml || fa fa-rss
 
