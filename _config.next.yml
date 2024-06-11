@@ -141,10 +141,10 @@ toc:
 footer:
   since: 2014
   icon:
-    name: fa fa-heart
+    name: fa-light fa-star
     animated: true
     color: "#808080"
-  copyright: NexT
+  copyright: Vayne Soralius
 
 
 # ============================================================= #
