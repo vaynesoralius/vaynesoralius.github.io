@@ -3,7 +3,7 @@
 #################################################################
 
 # Site
-title: NexT
+title: Clashing Stars
 description: NexT - An elegant and powerful theme for Hexo.
 keywords: "Hexo, NexT"
 language: en
@@ -81,3 +81,8 @@ marked:
 search:
   path: search.json
   field: all
+
+# Renderer
+renderer:
+  ext: handlebars
+  command: handlebars {source} -f {destination}

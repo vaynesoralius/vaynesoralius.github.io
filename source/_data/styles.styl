@@ -36,3 +36,93 @@
     }
   }
 }
+
+.narrator-section {
+  font-style: italic;
+  margin-bottom: 20px; /* Add space between narrator sections and dialogues */
+  display: flex; /* Adjust the padding as needed */
+}
+
+.narrator-text {
+  padding: 10px;
+  flex-grow: 1; /* Allow narrator text to grow and occupy remaining space */
+}
+
+.divider {
+  border-top: 1px solid #ccc; /* Define the style of the divider line */
+  margin: 20px 0; /* Adjust the margin as needed */
+}
+
+.padding-indicator {
+  width: 30px; /* Width of the padding indicator */
+  height: 0.3px; /* Height of the padding indicaator */
+  background-color: #ccc; /* Color of the padding indicator */
+  margin-left: 20px; /* Adjust the margin to add space between text and indicator */
+  align-self: center; /* Align the indicator vertically */
+}
+
+.story-dialogue {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.character-dialogue {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.character-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items vertically to the start */
+}
+
+.character-name {
+  font-size: 0.8em; /* Adjust font size for character names */
+  margin-bottom: 5px; /* Add space between name and profile picture */
+}
+
+.profile-picture {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  margin-right: 10px; /* Add some spacing between profile picture and message */
+  border-radius: 50%;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #e0e0e0; /* Default background color */
+  position: relative;
+  margin-top: 5px;
+}
+
+.profile-picture:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -10px; /* Adjust position based on the size of the arrow */
+  border: 10px solid transparent;
+  border-right-color: #e0e0e0; /* Same as message background color */
+  border-left: 0;
+  border-bottom: 0;
+}
+
+/* Specific styles for each character */
+.character-dialogue.vayne .message {
+  background-color: #d2cfce; /* Vayne's message background color */
+  color: #000; /* Vayne's text color */
+}
+
+.character-dialogue.vayne .profile-picture:before {
+  border-right-color: #f0c040; /* Vayne's arrow color */
+}
+
+.character-dialogue.falco .message {
+  background-color: #f10000; /* Falco's message background color */
+  color: #000; /* Falco's text color */
+}
+
+.character-dialogue.falco .profile-picture:before {
+  border-right-color: #4080f0; /* Falco's arrow color */
+}

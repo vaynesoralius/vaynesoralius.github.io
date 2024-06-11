@@ -38,6 +38,7 @@
     "hexo-theme-next": "8.20.0"
   },
   "devDependencies": {
+    "handlebars": "^4.7.8",
     "markdownlint-cli": "0.40.0"
   }
 }
